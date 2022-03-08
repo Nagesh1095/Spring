@@ -1,0 +1,10 @@
+package com.nsCorps.lemon.bean;
+
+@Dat
+public class Lemon {
+	
+	private String manthravadiName;
+	private String Location;
+	
+
+}

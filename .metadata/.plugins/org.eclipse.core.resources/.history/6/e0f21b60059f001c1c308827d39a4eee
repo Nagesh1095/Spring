@@ -1,0 +1,29 @@
+package com.nsCorps.lemon.bean;
+
+public class Lemon {
+	
+	private String manthravadiName;
+	private String Location;
+	
+	void mataManthra() {
+		
+	}
+
+	public String getManthravadiName() {
+		return manthravadiName;
+	}
+
+	public void setManthravadiName(String manthravadiName) {
+		this.manthravadiName = manthravadiName;
+	}
+
+	public String getLocation() {
+		return Location;
+	}
+
+	public void setLocation(String location) {
+		Location = location;
+	}
+	
+
+}

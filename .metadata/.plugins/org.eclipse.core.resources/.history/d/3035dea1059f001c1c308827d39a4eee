@@ -1,0 +1,16 @@
+package com.nsCorps.lemon.bean;
+
+import lombok.Data;
+
+@Data
+public class Lemon {
+	
+	private String manthravadiName;
+	private String Location;
+	
+	void mataManthra() {
+		
+	}
+
+	
+}
