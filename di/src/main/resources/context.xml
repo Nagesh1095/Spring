@@ -1,0 +1,23 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+    http://www.springframework.org/schema/beans     
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/mvc 
+    http://www.springframework.org/schema/mvc/spring-mvc.xsd
+    http://www.springframework.org/schema/context 
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<bean id="tree" class="com.nsCorps.di.bean.TreeBean">
+		<property name="name" value="Mango" />
+		<property name="noOfBranches" value="56" />
+		<constructor-arg ref="root" />
+	</bean>
+	<bean id="root" class="com.nsCorps.di.bean.RootBean">
+		<property name="typeOfSoil" value="Black"></property>
+		<constructor-arg name="red" index="0"/>
+	</bean>
+
+</beans>

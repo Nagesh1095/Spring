@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.nsCorps.spring.bean.SeasonBean"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.Properties"/>
+    <fullyQualifiedTypeName name="com.nsCorps.lemon.bean.Lemon"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="com.nsCorp.debate.bean.DebateBean"/>
+    <fullyQualifiedTypeName name="com.nsCorps.autoWire.bean.HumanBean"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="com.nsCorps.autoWire.bean.ProcessorBean"/>
+    <fullyQualifiedTypeName name="com.nsCorps.autoWire.bean.LaptopBean"/>
+    <fullyQualifiedTypeName name="com.nsCorps.di.bean.RootBean"/>
     <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
     <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
-    <fullyQualifiedTypeName name="com.nsCorps.spring.bean.SeasonBean"/>
+    <fullyQualifiedTypeName name="com.nsCorps.di.bean.TreeBean"/>
 </qualifiedTypeNameHistroy>

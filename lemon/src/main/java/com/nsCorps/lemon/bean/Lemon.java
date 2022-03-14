@@ -17,7 +17,7 @@ public class Lemon {
 	Properties mantravaadis;
 
 	public void mataManthra() {
-		System.out.println(manthravadiName + " is famous for maatamantra\t");
+		System.out.println(manthravadiName + " is famous for maatamantra");
 		System.out.println("available mantravaadi's are " + manthravaadiGalu);
 		System.out.println("available mantravaadigalu with avrgala address");
 		System.out.println(magicians);

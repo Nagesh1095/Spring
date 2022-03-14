@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+    http://www.springframework.org/schema/beans     
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/mvc 
+    http://www.springframework.org/schema/mvc/spring-mvc.xsd
+    http://www.springframework.org/schema/context 
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<bean id="human" class="com.nsCorps.autoWire.bean.HumanBean"
+		autowire="constructor">
+		<constructor-arg value="Kamala" index="0" />
+		<constructor-arg value="71.3" index="1" />
+		<constructor-arg ref="heart" />
+	</bean>
+	<bean id="heart" class="com.nsCorps.autoWire.bean.HeartBean"
+		autowire="constructor">
+		<constructor-arg value="4" index="0" />
+		<constructor-arg value="79" index="1" />
+	</bean>
+
+	<bean id="laptop" class="com.nsCorps.autoWire.bean.LaptopBean"
+		autowire="byName">
+		<constructor-arg value="Lenovo" index="0" />
+		<constructor-arg value="IdeaPad" index="1" />
+		<constructor-arg value="45000"  />
+		<constructor-arg ref="processor" />
+	</bean>
+	<bean id="processor"
+		class="com.nsCorps.autoWire.bean.ProcessorBean" autowire="byName">
+		<constructor-arg value="Intel" index="0" />
+		<constructor-arg value="i7-8gen" />
+	</bean>
+
+</beans>
