@@ -8,11 +8,16 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="com.nsCorp.debate.bean.DebateBean"/>
     <fullyQualifiedTypeName name="com.nsCorps.autoWire.bean.HumanBean"/>
-    <fullyQualifiedTypeName name="lombok.Data"/>
     <fullyQualifiedTypeName name="com.nsCorps.autoWire.bean.ProcessorBean"/>
     <fullyQualifiedTypeName name="com.nsCorps.autoWire.bean.LaptopBean"/>
     <fullyQualifiedTypeName name="com.nsCorps.di.bean.RootBean"/>
+    <fullyQualifiedTypeName name="com.nsCorps.di.bean.TreeBean"/>
     <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
     <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
-    <fullyQualifiedTypeName name="com.nsCorps.di.bean.TreeBean"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+    <fullyQualifiedTypeName name="com.nsCorps.springAnnotation.bean.WaterBean"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="com.nsCorps.springAnnotation.bean.FishBean"/>
 </qualifiedTypeNameHistroy>

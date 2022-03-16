@@ -49,6 +49,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="springAnnotation"/>
 			<item value="autoWire"/>
 		</list>
 		<list key="projectNameTemplate">

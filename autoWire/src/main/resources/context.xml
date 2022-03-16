@@ -17,21 +17,20 @@
 		<constructor-arg value="71.3" index="1" />
 		<constructor-arg ref="heart" />
 	</bean>
-	<bean id="heart" class="com.nsCorps.autoWire.bean.HeartBean"
-		autowire="constructor">
+	<bean id="heart" class="com.nsCorps.autoWire.bean.HeartBean">
 		<constructor-arg value="4" index="0" />
 		<constructor-arg value="79" index="1" />
 	</bean>
 
 	<bean id="laptop" class="com.nsCorps.autoWire.bean.LaptopBean"
-		autowire="byName">
+		autowire="byType">
 		<constructor-arg value="Lenovo" index="0" />
 		<constructor-arg value="IdeaPad" index="1" />
-		<constructor-arg value="45000"  />
+		<constructor-arg value="45000" />
 		<constructor-arg ref="processor" />
 	</bean>
-	<bean id="processor"
-		class="com.nsCorps.autoWire.bean.ProcessorBean" autowire="byName">
+
+	<bean id="processor" class="com.nsCorps.autoWire.bean.ProcessorBean">
 		<constructor-arg value="Intel" index="0" />
 		<constructor-arg value="i7-8gen" />
 	</bean>
