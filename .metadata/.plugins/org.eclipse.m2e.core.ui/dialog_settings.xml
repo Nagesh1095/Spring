@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="E:\Git\Spring\Servers2"/>
+			<item value="E:\Git\Spring\spring-MVC\src\main\webapp\index.jsp"/>
 			<item value="E:\Git\Spring\di\src\main\java\com\nsCorps\di\bean\RootBean.java"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -14,6 +16,7 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -49,8 +52,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="springAnnotation"/>
-			<item value="autoWire"/>
+			<item value="movie"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
